@@ -1,0 +1,78 @@
+body{
+    background: brown;
+	background-size: cover;	
+	background-image: url(tlo.jpg);
+}
+
+a.menulink { 
+
+text-decoration: none; 
+display: block;
+width: 150px;
+height: 50px;
+padding-top: 15px;
+}
+a.menulink:link { color: white; }
+a.menulink:visited { color: white; }
+a.menulink:hover { color: white; }
+a.menulink:active { color: white; }
+
+.container
+{
+	margin: 0 auto;
+	background: #e0dec5;
+	width: 1200px;
+	min-height: 500px;
+}
+
+.menu
+{
+	list-style-type: none;
+	background: #8c5c58;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.logo
+{
+	display: block;
+	width: 1200px;
+	height: 250px;
+	
+}
+
+.menu li
+{
+	display: inline-block;
+	font-size: 28px;
+	margin: 0 30px;
+}
+
+.menu li:hover
+{
+	background: #6a3a36;
+}
+
+.stopka
+{
+	background: #8c5c58;
+	padding: 20px;
+	color: white;
+}
+
+article
+{
+	display: inline-block;
+	width: 860px;
+	vertical-align: top;
+	padding: 0 20px;
+}
+
+.rekl
+{
+	display: inline-block;
+	width: 256px;
+	padding: 0 20px;
+	text-align: justify;
+}
