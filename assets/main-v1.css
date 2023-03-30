@@ -75,3 +75,20 @@ article
 	padding: 0 20px;
 	text-align: justify;
 }
+.dlan{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	float: left;
+}
+.space{
+	width: 60px;
+	height: 1px;
+	float: left;
+}
+.dlau{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	float: left;
+}
