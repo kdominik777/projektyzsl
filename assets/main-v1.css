@@ -102,7 +102,7 @@ article
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
-	box-shadow: 0px 0px 30px 7px white;
+	box-shadow: 0px 0px 30px 7px #41b2d0;
 }
 .dlau img{
 	transition: all 0.2s ease-in-out;
@@ -112,7 +112,7 @@ article
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
-	box-shadow: 0px 0px 30px 7px white;
+	box-shadow: 0px 0px 30px 7px #41b2d0;
 }
 header{
 	text-align: center;
