@@ -131,3 +131,94 @@ a.strona {
 	text-decoration: none;
 	float: right;
 }
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #0c5985;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #0c5985;
+}
+
+ol > li:hover
+{
+	background-color: #2c82b4;
+	color: white;
+}
+
+ol > li:hover > a
+{
+	color: white;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#3594CB;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #3594CB;
+}
+
+ol > li > ul > li:hover
+{
+	color: white;
+	background-color: #2c82b4;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #4ebaf8;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.nav
+{ 
+	width: 100%;
+	padding: 10px 0;
+	background-color: #3594CB;
+	text-align: center;
+	border-top: 1px solid #1276af;
+	border-bottom: 1px solid #1276af;
+}
