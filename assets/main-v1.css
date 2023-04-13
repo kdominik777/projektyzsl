@@ -18,6 +18,7 @@ a.menulink:hover { color: white; }
 a.menulink:active { color: white; }
 a.posts {
 	color: #005f95;
+	font-style: italic;
 }
 .container
 {
